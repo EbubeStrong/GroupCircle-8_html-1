@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- start of header -->
+    <header>
+      <h1>Abraham Samuel</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- strat of section-1 -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Abraham Samuel hails from Nigeria, specifically from Enugu State in the
+        East. From a young age, he has demonstrated a passion for technology,
+        coupled with diligence, commitment, and resilience. His dedication to
+        computer training began early, and he has continuously sought to improve
+        his skills and solve complex problems in the tech world. Abraham is also
+        a trained Frontend Developer who currently is has successfully completed
+        various projects in HTML and CSS; alongside with JavaScript. He has been
+        exposed into using of JavaScript Frameworks such as React.js and Vue.js.
+        He has gained expertise in frontend development. He possesses strong
+        leadership skills, which have enabled him to effectively guide and
+        inspire teams, fostering a collaborative environment that encourages
+        innovation and problem-solving. He has led several successful projects
+        which demonstrates his ability to manage resources, delegate tasks, and
+        achieve goals efficiently.
+      </p>
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+    </section>
+
+    <!-- start of section-2 -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <h3><strong><b>Here are some of my work:</b></strong></h3>
+      <div class="projects">
+        <div class="project">
+            <h3>E-commerce Demo Site</h3>
+            <p>Check Out My Project Below 👇 </p>
+            <a href="https://e-commerce-test-silk.vercel.app/" target="_blank"
+            >View the Site</a
+            >
+            <br><br>
+            <picture>
+                <source media="(max-width: 600px)" srcset="./img/shop_pic.jpg" width="60%">
+                <source media="(max-width: 1200px)" srcset="./img/shop_pic.jpg" width="70%">
+                <source media="(min-width: 1201px)" srcset="./img/shop_pic.jpg" width="100%">
+                <img src="./img/shop_pic.jpg" alt="Project 1" >
+            </picture>
+        </div>
+
+        <div class="project">
+            <h3>Emoji Api Site</h3>
+            <p>Check Out the Project Below 👇 </p>
+            <a href="https://emoji-task.vercel.app/" target="_blank"
+            >View the Site</a
+            >
+            <br><br>
+            <picture>
+                <source media="(max-width: 600px)" srcset="./img/emoji-pic.jpg" width="60%">
+                <source media="(max-width: 1200px)" srcset="./img/emoji-pic.jpg" width="70%">
+                <source media="(min-width: 1201px)" srcset="./img/emoji-pic.jpg" width="100%">
+                <img src="./img/emoji-pic.jpg" alt="Project 2" >
+            </picture>
+            
+        </div>
+      </div>
+    </section>
+
+    <!-- start of section-3 -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="7" required></textarea><br>
+        <button type="submit">Send</button>
+      </form>
+      
+      <h3>Reach Out to Me at my Social Handles below 👇</h3>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/abrahamsamuel567/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://x.com/EbubeStrong21" target="_blank">Twitter</a>
+        </li>
+        <li><a href="mailto:samsparko121@gmail.com">Email</a></li>
+      </ul>
+    </section>
+
+    <!-- start of footer -->
+    <footer>
+      <p>&copy; 2024 Abraham Samuel. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
